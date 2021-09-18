@@ -1,10 +1,11 @@
-## How to create Docker Swarm cluster using vagrant
+## How to create Kubernetes cluster using vagrant.
 
 - Download & install Vagrant from Vagrant's official website.
 - Download & install VirtualBox from it's official website.
 - Clone this repository and open this repository in CMD/PowerShell/Terminal.
 - Go to Vagrantfile and change the LINE-3 path with your own user path.
 - Run command `vagrant up`. It will take a sevral minutes, in my case took 10 minutes.
+- You need to use `kubeadm init` in Master node (node1) and then join from other Nodes.
 - Done :)
 
 ## Useful commands
